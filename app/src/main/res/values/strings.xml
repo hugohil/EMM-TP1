@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TP1</string>
+    <string name="main_starting">Démarrage ...</string>
+    <string name="main_exit">Sortir</string>
+    <string name="hello_world">Bonjour à tous !</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_exit">Sortir</string>
+    <string name="dialog_exit_cancel">Annuler</string>
+    <string name="ok">Oui</string>
+    <string name="dialog_exit">Voulez vous quitter ?</string>
+    <string name="action_locale">Langue</string>
+    <string name="changeLocale">Choisissez votre langue</string>
+    <string name="main_langage">Langue</string>
+</resources>
