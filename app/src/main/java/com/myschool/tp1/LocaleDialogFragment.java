@@ -4,6 +4,7 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
 import android.os.Bundle;
@@ -33,6 +34,9 @@ public class LocaleDialogFragment extends DialogFragment{
                         config.locale = locale;
                         getActivity().getBaseContext().getResources().updateConfiguration(config,
                                 getActivity().getBaseContext().getResources().getDisplayMetrics());
+                        Intent intent = getActivity().getIntent();
+                        getActivity().finish();
+                        startActivity(intent);
                     }
                 });
         return builder.create();
